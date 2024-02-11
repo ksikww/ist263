@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+    </head>
+    <body>
+        <h1>Contact</h1>
+                <p>Yuntian Jiang</p>
+                <p>Syracuse University<br>
+                900 S Crouse Ave<br>
+                Syracuse, NY 13244</p>
+            <a href="mailto:yjian124@syr.edu">yjian124@syr.edu</a><br><br>
+            <a href="https://www.linkedin.com/in/yuntian-jiang-87196324b/">
+                <img src="../images/LinkedIn-Logos/li.png" alt="LinkedIn Logo" width="100">
+            </a>
+            <a href="https://www.linkedin.com/in/yuntian-jiang-87196324b/">My LinkedIn Profile</a><br><br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.1091979336184!2d-76.12238422325605!3d43.018088671139346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f49d3093a76b%3A0x83c3bb41b83f192e!2s331%20Chinook%20Dr%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1706983287719!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </body>
+    <form action="https://formspree.io/f/xwkglgga" method="post">
+        <label for="fullname">Your name:</label><br>
+        <input type="text" id="fullname" name="fullname"><br>
+        <p>What kind of things you want to communicate with me?</p>
+        <input type="radio" id="career" name="topic" value="Talk something about work with me">
+        <label for="career">career</label>
+        <input type="radio" id="schoolwork" name="topic" value="Talk about school's stuff with me">
+        <label for="schoolwork">schoolwork</label>
+        <input type="radio" id="chitchat" name="topic" value="Chitchat with me">
+        <label for="chitchat">chitchat</label>
+        <p>Your Occupation</p>
+        <select name="occupation" id="occupation">
+            <option value="student">Student</option>
+            <option value="educator">Educator/Teacher</option>
+            <option value="engineer">Engineer/Technician</option>
+            <option value="it">IT/Information Technology</option>
+            <option value="medical">Medical Professional/Doctor/Nurse</option>
+            <option value="business">Business Professional</option>
+            <option value="marketing">Sales/Marketing</option>
+            <option value="legal">Legal/Lawyer</option>
+            <option value="arts">Arts/Design</option>
+            <option value="media">Media/Communications</option>
+            <option value="science">Scientific Research</option>
+            <option value="government">Government/Public Service</option>
+            <option value="entrepreneur">Entrepreneur</option>
+            <option value="freelancer">Freelancer</option>
+            <option value="retired">Retired</option>
+            <option value="homemaker">Homemaker</option>
+            <option value="other">Other</option>
+          </select><br>
+        <p>Your Gender</p>
+        <select name="gender" id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="preferred not to tell">Preferred not to tell</option>
+        </select><br>
+        <label for="information">Any other things you would like to share:</label><br>
+        <textarea id="information" name="information" rows="3" cols="60" placeholder="Enter here"></textarea><br>
+        <input type="submit" value="Confirm">
+    </form>
+</html>
