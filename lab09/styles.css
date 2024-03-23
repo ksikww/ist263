@@ -31,18 +31,13 @@ nav {padding: 10px;
 .skills, .left, .right {display: flex;}
 
 .left {flex: 3;
-        justify-content: space-around;
-        flex-direction: column;}
+        justify-content: space-around;}
 
 .right {flex: 1;}
 
-.skills {justify-content: space-between;
-        margin-top: 40px;
-        align-items: center;}
-
-.icon {display: flex;
-    justify-content: space-around;
-    margin-top: 50px;}
+.skills {margin-top: 40px;
+        align-items: center;
+        justify-content: space-between;}
 
 .aside {background-color: #387ADF;
         border-radius: 10px;
