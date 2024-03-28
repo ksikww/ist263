@@ -56,6 +56,13 @@ nav {padding: 10px;
                 padding: 5px 0;
         }
     }
+
+    textarea {
+        width: 100%; /* 确保textarea填充其容器 */
+        max-width: 100%; /* 防止textarea超出屏幕宽度 */
+        box-sizing: border-box; /* 确保padding和border不会增加textarea的总宽度 */
+    }
+    
             
             
             
