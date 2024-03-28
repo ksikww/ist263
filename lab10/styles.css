@@ -1,0 +1,44 @@
+body {
+    background-color: #FFF7F1;
+    color: #000000;
+    padding: 20px;
+}
+
+a:link {color: #F72798;}
+
+a:visited {color: #F72798;}
+
+a:hover {color: #387ADF;}
+
+h1, h2, h3 {color: #F57D1F;
+        text-align: center;}
+
+nav {background-color: #59D5E0;}
+
+nav a {color: #F72798;}
+
+nav a:hover {
+    background-color: #387ADF;
+    color: #FFFFFF;}
+
+nav {padding: 10px;
+    margin-bottom: 30px;}
+
+.motto {float: right; margin-top: 0;}
+
+.clear {clear: both;}
+
+.skills, .left, .right {display: flex;}
+
+.left {flex: 3;
+        justify-content: space-around;}
+
+.right {flex: 1;}
+
+.skills {margin-top: 40px;
+        align-items: center;
+        justify-content: space-between;}
+
+.aside {background-color: #387ADF;
+        border-radius: 10px;
+        padding: 10px;}
