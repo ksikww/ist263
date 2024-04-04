@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Forms</title>
+    <style>
+        body {background-color: antiquewhite;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        form {background-color: #ffffff;
+            padding: 40px;
+            width: 70%;
+            margin: 0 auto;
+        }
+        input, textarea {
+            margin-bottom: 15px;
+            width: 100%; /*no attributes can be on form fields for width*/
+        }
+        .submit {
+            background-color: rgb(8, 78, 55);
+            border: none;
+            color: #ffffff;
+            padding: 15px;
+            margin: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <h1>Contact Form</h1>
+        <label for="name">Name</label><br>
+        <input id="name" name="name"><br>
+
+        <label for="email">Email</label><br>
+        <input id="email" name="enail"><br>
+
+        <label for="comment">Comments</label><br>
+        <textarea id="comment" name="comments"></textarea><br>
+
+        <input class="submit" type="submit" value="Send Form">
+    </form>
+</body>
+</html>
