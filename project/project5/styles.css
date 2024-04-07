@@ -49,3 +49,5 @@ h1, h2, h3 {color: #d7ac1e;
 .adventure {
     background-image: url('../media/adventure.jpg');
 }
+
+a {color: aquamarine;}
