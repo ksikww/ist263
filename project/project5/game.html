@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="styles.css">
+    <style>
+        /* style.css */
+        .game-info, .requirements {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .left-side, .right-side, .minimum, .recommended {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .review, .minimum, .recommended {
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 800px) {
+            .game-info, .requirements {
+                flex-direction: column;
+            }
+        }
+    </style>
+    <title>Game</title>
+</head>
+<body>
+    <nav>
+        <a href="homepage.html">Home</a>
+        <a href="category.html">Category</a>
+        <a href="game.html">Game Information</a>
+    </nav>
+    <h1>Game Information</h1>
+    <div class="game-info">
+        <div class="left-side">
+            <h2>Baldur’s Gate 3</h2>
+            <p>Release Date: Aug 3, 2023</p>
+            <p>Developer: Larian Studios</p>
+            <p>Publisher: Larian Studios</p>
+            <p>Metacritic's Rating: 96</p>
+            <a href="https://www.metacritic.com/game/baldurs-gate-3/?ftag=MCD-06-10aaa1f">Read Critic Reviews</a><br>
+            <a href="https://store.steampowered.com/agecheck/app/1086940/">Purchase the Game</a>
+        </div>
+        <div class="right-side">
+            <h2>Player's Review</h2>
+            <!-- Review Sections -->
+            <div class="review">
+                <p><strong>clockworkarchangel13:</strong> my work is really cutting into my Baldur's Gate 3 time. should i quit?</p>
+                <a href="https://steamcommunity.com/id/clockworkarchangel13/recommended/1086940/">View This Comment on Web</a>
+            </div>
+            <div class="review">
+                <p><strong>Souls:</strong> Baldur's Gate 3 is a reminder of what the Golden Age of gaming used to be like. No microtransactions, no season pass, no subscription, no content-cut DLC. What you buy is what you get, and what you get is the best cRPG and one of the best RPG's ever created. I'm buying this game on GOG too, just to support Larian. Thank you!</p>
+                <a href="https://steamcommunity.com/profiles/76561198146129341/recommended/1086940/">View This Comment on Web</a>
+            </div>
+            <div class="review">
+                <p><strong>Barnie the Bull:</strong> The experience playing this game is like eating a medium-rare steak after years of eating out of dumpsters.</p>
+                <a href="https://steamcommunity.com/profiles/76561197971365246/recommended/1086940/">View This Comment on Web</a>
+            </div>
+        </div>
+    </div>
+    <h2>System Requirements</h2>
+    <!-- System Requirements Sections -->
+    <div class="requirements">
+        <div class="minimum">
+            <h3>MINIMUM:</h3>
+            <p>Requires a 64-bit processor and operating system<br>
+                OS: Windows 10 64-bit<br>
+                Processor: Intel I5 4690 / AMD FX 8350<br>
+                Memory: 8 GB RAM<br>
+                Graphics: Nvidia GTX 970 / RX 480 (4GB+ of VRAM)<br>
+                DirectX: Version 11<br>
+                Storage: 150 GB available space<br>
+                Additional Notes: SSD required</p>
+        </div>
+        <div class="recommended">
+            <h3>RECOMMENDED:</h3>
+            <p>Requires a 64-bit processor and operating system<br>
+                OS: Windows 10 64-bit<br>
+                Processor: Intel i7 8700K / AMD r5 3600<br>
+                Memory: 16 GB RAM<br>
+                Graphics: Nvidia 2060 Super / RX 5700 XT (8GB+ of VRAM)<br>
+                DirectX: Version 11<br>
+                Storage: 150 GB available space<br>
+                Additional Notes: SSD required
+                </p>
+        </div>
+    </div>
+    <footer>
+        <hr>
+        <p class="motto">“Tech otakus save the world.” – MiHoYo</p>
+        <p>&copy; 2024</p>
+    </footer>
+</body>
+</html>

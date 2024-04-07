@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="styles.css">
+    <style>
+        .genres {display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                align-items: stretch;
+            }
+        
+        .genres div {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            background-size: cover;
+            min-height: 300px;
+        }
+
+        .genres a {
+            flex: 1;
+        }
+
+        @media (max-width: 800px) {
+            .genres {
+                flex-direction: column;
+            }
+        }
+        .link {
+            text-decoration: none;
+            color: inherit;
+            }
+
+    </style>
+    <title>Homepage</title>
+</head>
+<body>
+    <nav>
+        <a href="homepage.html">Home</a>
+        <a href="category.html">Category</a>
+        <a href="game.html">Game Information</a>
+    </nav>
+    <h1>Welcome to our website!</h1>
+    <p>Do you want to experience a game you have never played before, or are you just entering the gaming field? Then this website may help you. My website is dedicated to providing recommendations for people who are interested in games, allowing people to view detailed information on different games based on their favorite genres. Hope you have a comfortable experience!</p>
+    <h2>Why dive into PC gaming?</h2>
+    <p>PC gaming is not just a pastime. It's a doorway to worlds beyond imagination. With cutting-edge graphics, immersive storylines, and interactive gameplay, each game is an adventure in its own right.</p>
+    <h2>Following are the genres of game we cover:</h2>
+    <div class="genres">
+        <a href="category.html" class="link">
+            <div class="role" ><h3>Role-Playing</h3><br>
+                <p>A role-playing game (sometimes spelled roleplaying game, RPG) is a game in which players assume the roles of characters in a fictional setting. Players take responsibility for acting out these roles within a narrative, either through literal acting or through a process of structured decision-making regarding character development. Actions taken within many games succeed or fail according to a formal system of rules and guidelines.</p>
+            </div>
+        </a>
+        <a href="category.html" class="link">
+            <div class="strategy"><h3>Strategy</h3><br>
+                <p>A strategy game or strategic game is a game (e.g. a board game) in which the players' uncoerced, and often autonomous, decision-making skills have a high significance in determining the outcome. Almost all strategy games require internal decision tree-style thinking, and typically very high situational awareness.</p>
+            </div>
+        </a>
+        <a href="category.html" class="link">
+            <div class="adventure"><h3>Adventure</h3><br>
+                <p>An adventure game is a video game genre in which the player assumes the role of a protagonist in an interactive story, driven by exploration and/or puzzle-solving. The genre's focus on story allows it to draw heavily from other narrative-based media, such as literature and film, encompassing a wide variety of genres. Most adventure games (text and graphic) are designed for a single player, since the emphasis on story and character makes multiplayer design difficult. Colossal Cave Adventure is identified by Rick Adams as the first such adventure game, first released in 1976, while other notable adventure game series include Zork, King's Quest, Monkey Island, Syberia, and Myst.</p>
+            </div>
+        </a>
+    </div>
+    <footer>
+        <hr>
+        <p class="motto">“Tech otakus save the world.” – MiHoYo</p>
+        <p>&copy; 2024</p>
+    </footer>
+</body>
+</html>

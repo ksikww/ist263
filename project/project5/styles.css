@@ -1,0 +1,51 @@
+.image {
+    max-width: 100%;
+    height: auto;
+    }
+
+@media only screen and (max-width: 800px) {
+    nav a {
+            display: block;
+            width: 100%;
+            margin: 5px 0;
+            padding: 5px 0;
+    }
+}
+
+.motto {float: right; margin-top: 0;}
+
+nav {padding: 10px;
+    margin-bottom: 30px;}
+
+nav {background-color: #59D5E0;}
+
+nav a {color: #8b37e5;}
+    
+nav a:hover {
+    background-color: #387ADF;
+    color: #FFFFFF;
+    }
+
+p {color: #FFFFFF;}
+
+body {
+    background-image: url('../media/homepage.jpg');
+    background-size: cover;
+    width: auto;
+    height: auto;
+    }
+
+h1, h2, h3 {color: #d7ac1e;
+    text-align: center;}
+
+.role {
+    background-image: url('../media/role.jpg');
+}
+
+.strategy {
+    background-image: url('../media/strategy.jpg');
+}
+
+.adventure {
+    background-image: url('../media/adventure.jpg');
+}
