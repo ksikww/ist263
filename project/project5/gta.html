@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        .game-info, .requirements {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .left-side, .right-side, .minimum, .recommended {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .review, .minimum, .recommended {
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 800px) {
+            .game-info, .requirements {
+                flex-direction: column;
+            }
+        }
+    </style>
+    <title>Game</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="dropdown">
+                <a href="game.html">Game Information</a>
+                <div class="dropdown-content">
+                    <a href="homepage.html">Home</a>
+                    <a href="category.html">Category</a>
+                </div>
+            </div>
+        </nav> 
+        <h1>Game Information</h1>
+    </header>
+    <main>
+        <section>
+            <div class="game-info">
+                <div class="left-side">
+                    <h2>Grand Theft Auto V</h2>
+                    <p>Release Date: Apr 14, 2015</p>
+                    <p>Developer: Rockstar North</p>
+                    <p>Publisher: Rockstar Games</p>
+                    <p>Metacritic's Rating: 96</p>
+                    <a href="https://www.metacritic.com/game/grand-theft-auto-v/?ftag=MCD-06-10aaa1f">Read Critic Reviews</a><br>
+                    <a href="https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/">Purchase the Game</a>
+                </div>
+                <div class="right-side">
+                    <h2>Player's Review</h2>
+                    <!-- Review Sections -->
+                    <div class="review">
+                        <p><strong>DarkViperAU:</strong> It takes 10859 hours to get all the achievements in the game. It is still a good game though. I recommend it, and GTA 6 when it releases. I wish you all the best. Boop.</p>
+                        <a href="https://steamcommunity.com/id/darkviperau/recommended/271590/">View This Comment on Web</a>
+                    </div>
+                    <div class="review">
+                        <p><strong>You Tryhard:</strong> Got into online and saw my IP address, ISP, and location in the chat. I really feel like I'm at home.</p>
+                        <a href="https://steamcommunity.com/id/youtryhard/recommended/271590/">View This Comment on Web</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>System Requirements</h2>
+            <!-- System Requirements Sections -->
+            <div class="requirements">
+                <div class="minimum">
+                    <h3>MINIMUM:</h3>
+                    <p>Requires a 64-bit processor and operating system<br>
+                        OS: Windows 10 64 Bit<br>
+                        Processor: Intel Core 2 Quad CPU Q6600 @ 2.40GHz (4 CPUs) / AMD Phenom 9850 Quad-Core Processor (4 CPUs) @ 2.5GHz<br>
+                        Memory: 4 GB RAM<br>
+                        Graphics: NVIDIA 9800 GT 1GB / AMD HD 4870 1GB (DX 10, 10.1, 11)<br>
+                        Storage: 110 GB available space<br>
+                        Sound Card: 100% DirectX 10 compatible
+                    </p>
+                </div>
+                <div class="recommended">
+                    <h3>RECOMMENDED:</h3>
+                    <p>Requires a 64-bit processor and operating system<br>
+                        OS: Windows 10 64 Bit<br>
+                        Processor: Intel Core i5 3470 @ 3.2GHz (4 CPUs) / AMD X8 FX-8350 @ 4GHz (8 CPUs)<br>
+                        Memory: 8 GB RAM<br>
+                        Graphics: NVIDIA GTX 660 2GB / AMD HD 7870 2GB<br>
+                        Storage: 110 GB available space<br>
+                        Sound Card: 100% DirectX 10 compatible
+                    </p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <hr>
+            <p class="motto">“Tech otakus save the world.” – MiHoYo</p>
+            <p>&copy; 2024</p>
+        </footer>
+    </main>
+</body>
+</html>

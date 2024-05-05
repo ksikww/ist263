@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        .game-info, .requirements {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .left-side, .right-side, .minimum, .recommended {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .review, .minimum, .recommended {
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 800px) {
+            .game-info, .requirements {
+                flex-direction: column;
+            }
+        }
+    </style>
+    <title>Game</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="dropdown">
+                <a href="game.html">Game Information</a>
+                <div class="dropdown-content">
+                    <a href="homepage.html">Home</a>
+                    <a href="category.html">Category</a>
+                </div>
+            </div>
+        </nav>
+        <h1>Game Information</h1>
+    </header>
+    <main>
+        <section>
+            <div class="game-info">
+                <div class="left-side">
+                    <h2>Cyberpunk 2077</h2>
+                    <p>Release Date: Dec 9, 2020</p>
+                    <p>Developer: CD PROJEKT RED</p>
+                    <p>Publisher: CD PROJEKT RED</p>
+                    <p>Metacritic's Rating: 86</p>
+                    <a href="https://www.metacritic.com/game/cyberpunk-2077/?ftag=MCD-06-10aaa1f">Read Critic Reviews</a><br>
+                    <a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/">Purchase the Game</a>
+                </div>
+                <div class="right-side">
+                    <h2>Player's Review</h2>
+                    <!-- Review Sections -->
+                    <div class="review">
+                        <p><strong>Joker:</strong> Has improved alot since the start would recommend picking it up now</p>
+                        <a href="https://steamcommunity.com/id/jokerdesu/recommended/1091500/">View This Comment on Web</a>
+                    </div>
+                    <div class="review">
+                        <p><strong>Nautilus625:</strong> I love this game but games needs to be optimized and fix glitches</p>
+                        <a href="https://steamcommunity.com/profiles/76561198879644576/recommended/1091500/">View This Comment on Web</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>System Requirements</h2>
+            <!-- System Requirements Sections -->
+            <div class="requirements">
+                <div class="minimum">
+                    <h3>MINIMUM:</h3>
+                    <p>Requires a 64-bit processor and operating system<br>
+                        OS: 64-bit Windows 10<br>
+                        Processor: Core i7-6700 or Ryzen 5 1600<br>
+                        Memory: 12 GB RAM<br>
+                        Graphics: GeForce GTX 1060 6GB or Radeon RX 580 8GB or Arc A380<br>
+                        DirectX: Version 12<br>
+                        Storage: 70 GB available space<br>
+                        Additional Notes: SSD required.
+                    </p>
+                </div>
+                <div class="recommended">
+                    <h3>RECOMMENDED:</h3>
+                    <p>Requires a 64-bit processor and operating system<br>
+                        OS: 64-bit Windows 10<br>
+                        Processor: Core i7-12700 or Ryzen 7 7800X3D<br>
+                        Memory: 16 GB RAM<br>
+                        Graphics: GeForce RTX 2060 SUPER or Radeon RX 5700 XT or Arc A770<br>
+                        DirectX: Version 12<br>
+                        Storage: 70 GB available space<br>
+                        Additional Notes: SSD required.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <hr>
+            <p class="motto">“Tech otakus save the world.” – MiHoYo</p>
+            <p>&copy; 2024</p>
+        </footer>
+    </main>
+</body>
+</html>

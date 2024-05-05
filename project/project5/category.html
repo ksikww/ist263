@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="Stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <style>
         .container {
     text-align: center;
@@ -40,12 +41,16 @@
 </head>
 <body>
     <nav>
-        <a href="homepage.html">Home</a>
-        <a href="category.html">Category</a>
-        <a href="game.html">Game Information</a>
-    </nav>
+        <div class="dropdown">
+            <a href="category.html">Category</a>
+            <div class="dropdown-content">
+                <a href="homepage.html">Home</a>
+                <a href="game.html">Game Information</a>
+            </div>
+        </div>
+    </nav> 
     <div class="container">
-        <h1 class="title">Games in Role-Playing Category</h1>
+        <h1 class="title">Recommend Games</h1>
         <div class="game" onclick="window.location.href='game.html';">
             <img src="../media/baldur.avif" alt="error" class="game-img">
             <div class="game-info">
@@ -53,28 +58,28 @@
                 <p>Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons & Dragons, where your choices shape a tale of fellowship and betrayal, survival and sacrifice, and the lure of absolute power.</p>
             </div>
         </div>
-        <div class="game" onclick="window.location.href='game.html';">
+        <div class="game" onclick="window.location.href='cyber.html';">
             <img src="../media/cyber.png" alt="error" class="game-img">
             <div class="game-info">
                 <h2>Cyberpunk 2077</h2>
                 <p>Cyberpunk 2077 is an open-world, action-adventure RPG set in the dark future of Night City — a dangerous megalopolis obsessed with power, glamor, and ceaseless body modification.</p>
             </div>
         </div>
-        <div class="game" onclick="window.location.href='game.html';">
+        <div class="game" onclick="window.location.href='p5.html';">
             <img src="../media/p5.jpeg" alt="error" class="game-img">
             <div class="game-info">
                 <h2>Persona 5 Royal</h2>
                 <p>Don the mask and join the Phantom Thieves of Hearts as they stage grand heists, infiltrate the minds of the corrupt, and make them change their ways!</p>
             </div>
         </div>
-        <div class="game" onclick="window.location.href='game.html';">
+        <div class="game" onclick="window.location.href='gta.html';">
             <img src="../media/gta.jpeg" alt="error" class="game-img">
             <div class="game-info">
                 <h2>Grand Theft Auto V</h2>
                 <p>Grand Theft Auto V for PC offers players the option to explore the award-winning world of Los Santos and Blaine County in resolutions of up to 4k and beyond, as well as the chance to experience the game running at 60 frames per second.</p>
             </div>
         </div>
-        <div class="game" onclick="window.location.href='game.html';">
+        <div class="game" onclick="window.location.href='rdr.html';">
             <img src="../media/rdr.jpeg" alt="error" class="game-img">
             <div class="game-info">
                 <h2>Red Dead Redemption 2</h2>
